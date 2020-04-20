@@ -49,4 +49,7 @@ dependencies {
 
     // MaterialEditText
     implementation "com.rengwuxian.materialedittext:library:2.1.4"
+
+    // CoordinatorLayout
+    implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
 }
