@@ -28,7 +28,7 @@
                 android:inputType="text"
                 android:text="@string/title"
                 android:textColorHint="@android:color/white"
-                android:textSize="30sp"
+                android:textSize="23sp"
                 app:met_baseColor="@android:color/white"
                 app:met_floatingLabel="highlight"
                 app:met_primaryColor="@android:color/white"
@@ -57,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="10dp"
+        android:backgroundTint="#ffbcaf"
         android:src="@drawable/ic_add"
         app:elevation="6dp"
         app:fabSize="normal"
@@ -70,6 +71,6 @@
         android:id="@+id/recyclerViewListToDo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
