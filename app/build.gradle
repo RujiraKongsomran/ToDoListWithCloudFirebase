@@ -43,4 +43,10 @@ dependencies {
 
     // RecyclerView
     implementation "androidx.recyclerview:recyclerview:1.1.0"
+
+    // Dialog
+    implementation "com.github.d-max:spots-dialog:1.1@arr"
+
+    // MaterialEditText
+    implementation "com.rengwuxian.materialedittext:library:2.1.4"
 }
